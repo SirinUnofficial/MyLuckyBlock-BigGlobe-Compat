@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "myluckyblock-bigglobe-compat",
+    "version": "${version}",
+    "name": "MyLuckyBlock-BigGlobe-Compat",
+    "description": "MyLuckyBlock in BigGlobe",
+    "authors": [
+        "Sycamore0"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/myluckyblock-bigglobe-compat/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.sycamore0.myluckyblockBigglobeCompat.MyLuckyBlockBigglobeCompat"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "minecraft": ">=1.21"
+    },
+    "suggests": {
+        "myluckyblock": ">=1.1.0",
+        "bigglobe": "*"
+    }
+}
