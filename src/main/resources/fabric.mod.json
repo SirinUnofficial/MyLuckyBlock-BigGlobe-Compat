@@ -16,11 +16,14 @@
             "io.github.sycamore0.myluckyblockBigglobeCompat.MyLuckyBlockBigglobeCompat"
         ]
     },
+    "custom": {
+        "modmenu": {
+            "parent": "myluckyblock"
+        }
+    },
     "depends": {
         "fabricloader": ">=${loader_version}",
-        "minecraft": ">=1.21"
-    },
-    "suggests": {
+        "minecraft": ">=1.21",
         "myluckyblock": ">=1.1.0",
         "bigglobe": "*"
     }
